@@ -1,0 +1,38 @@
+*{
+	padding:0;
+	margin:0;
+	list-style:none;
+}
+a{
+	text-decoration:none;
+}
+$bg:100%;
+.section1{
+//	width: $bg;
+	background: url(../img/2.jpg);
+	position: relative;
+	$(.zhezhao){
+	    width: 100%;
+	    height: 100%;
+	    background: rgba(0,0,0,0.5);
+	    position: absolute;
+	    left: 0;
+	    top:0;
+	}
+}
+.section2{
+//  width: $bg;
+    background: url(../img/5.jpg);
+}
+.section3{
+//  width: $bg;
+    background: url(../img/1.jpg);
+}
+.section4{
+//  width: $bg;
+    background: url(../img/3.jpg);
+}
+.section5{
+//  width: $bg;
+    background: url(../img/4.jpg);
+}
